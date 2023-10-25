@@ -1,0 +1,50 @@
+.card{
+  width:250px;
+  height:330px;
+  display:flex;
+  flex-direction: column;
+  border:1px solid black;
+  border-radius: 5px;
+  padding:7px;
+  justify-content: stretch;
+}
+
+img{
+  width:250px;
+  height:150px;
+  object-fit: contain;
+}
+
+button{
+  padding:7px;
+  width:100px;
+  height:40px;
+  margin:0 auto;
+}
+
+.buttons{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  gap:1rem;
+}
+
+.details{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.cart-comp{
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.card-area{
+  display:grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 2rem;
+
+}
