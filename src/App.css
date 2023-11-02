@@ -1,50 +1,49 @@
-.card{
-  width:250px;
-  height:330px;
-  display:flex;
-  flex-direction: column;
-  border:1px solid black;
-  border-radius: 5px;
-  padding:7px;
-  justify-content: stretch;
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(14, 11, 11);
+  font-size: 50px;
+  color: azure;
+  font-weight: bolder;
+  padding: 10px;
 }
 
-img{
-  width:250px;
-  height:150px;
-  object-fit: contain;
-}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(14, 11, 11);
+  font-size: 50px;
+  color: azure;
+  font-weight: bolder;
+  padding: 10px;
+} 
 
-button{
-  padding:7px;
-  width:100px;
-  height:40px;
-  margin:0 auto;
-}
-
-.buttons{
+.cards{
+  background-color: gray;
+  padding: 30px;
   display:flex;
   flex-direction: row;
-  justify-content:center;
-  gap:1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:2rem;
 }
 
-.details{
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
+.cartNo{
+  border:2px solid black;
+  padding:4px;
+  border-radius: 10px;
 }
 
-.cart-comp{
-  display:flex;
+.cartNo:hover{
+  background-color: black;
+  color:white;
+}
+
+.badge{
+  display: flex;
   flex-direction: row;
-  justify-content: end;
-}
-
-.card-area{
-  display:grid;
-  grid-template-columns: repeat(4,300px);
-  gap: 2rem;
-
+  justify-content: flex-end;
+  align-items: end;
 }
